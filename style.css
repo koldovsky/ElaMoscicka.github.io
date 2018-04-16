@@ -26,12 +26,12 @@ a:hover{
 }
 
 .pic1{
-    background-image: url('img/image1.jpg');
+    background-image: url('https://source.unsplash.com/gYl-UtwNg_I/1500x1500)');
     min-height: 100%;
   }
   
   .pic2{
-    background-image: url('img/image2.jpg');
+    background-image: url('https://source.unsplash.com/rFKUFzjPYiQ/1500x1500');
     min-height: 400px;
   }
   
@@ -41,7 +41,7 @@ a:hover{
   }
 
   .pic4{
-    background-image: url('img/image4.jpg');
+    background-image: url('https://source.unsplash.com/ITjiVXcwVng/1500x1500');
     min-height: 400px;
   }
 
