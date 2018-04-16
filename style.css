@@ -20,7 +20,7 @@ a:hover{
     position: relative;
     opacity: 0.70;
     background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -36,7 +36,7 @@ a:hover{
   }
   
   .pic3{
-    background-image: url('img/image3.JPG');
+    background-image: url('img/image3.jpg');
     min-height: 400px;
   }
 
@@ -77,9 +77,8 @@ a:hover{
       padding: 20px;
   }
 
-
-@media only screen and (min-width: 800px)  {
-   background-attachment: initial;
-}
-}
-
+  @media(max-width: 568){
+      .pic1, .pic2, .pic3, .pic4{
+          background-attachment: scroll;
+      }
+  }
