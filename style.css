@@ -79,8 +79,7 @@ a:hover{
 
   @media(max-width: 568){
       .pic1, .pic2, .pic3, .pic4{
-          /*background-attachment: scroll;*/
-          background-attachment: initial;
+          background-attachment: scroll;
       }
   }
  
