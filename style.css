@@ -6,7 +6,7 @@ body, html{
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
-}
+  }
 
 a{
     text-decoration: none;
@@ -16,70 +16,73 @@ a:hover{
     text-decoration: underline;
 }
 
-.pic1, .pic2, .pic3, .pic4{
+.pic1, .pic2, .pic3, .pic4{ 
     position: relative;
     opacity: 0.70;
     background-position: center;
-    background-size: cover;
+    background-size :cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+  }
 
 .pic1{
-    background-image: url('https://source.unsplash.com/gYl-UtwNg_I/1500x1500)');
+    background-image:url('img/image1.jpg');
     min-height: 100%;
+}
+  
+.pic2{
+    background-image:url('img/image2.jpg');
+    min-height: 100%;
+}
+
+.pic3{
+    background-image:url('img/image3.JPG');
+    min-height: 100%;
+}
+
+.pic4{
+    background-image:url('img/image4.jpg');
+    min-height: 100%;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
   }
   
-  .pic2{
-    background-image: url('https://source.unsplash.com/rFKUFzjPYiQ/1500x1500');
-    min-height: 400px;
-  }
-  
-  .pic3{
-    background-image: url('img/image3.JPG');
-    min-height: 400px;
-  }
-
-  .pic4{
-    background-image: url('https://source.unsplash.com/ITjiVXcwVng/1500x1500');
-    min-height: 400px;
-  }
-
-  .section{
-      text-align: center;
-      padding: 50px 80px;
-  }
-
   .section-light{
-      background-color: #f4f4f4;
-      color: #666
+    background-color: #f4f4f4;
+    color: #666;
   }
-
+  
   .section-dark{
-      background-color: #282e34;
-      color: #ddd;
+    background-color: #282e34;
+    color: #ddd;
   }
-
+  
   .ptext{
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-      color: #000;
-      font-size: 27px;
-      letter-spacing: 8px;
-      text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
   }
-
+  
   .ptext .border{
-      background-color: #111;
-      color: #fff;
-      padding: 20px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
   }
-
-  @media(max-width: 568){
-      .pic1, .pic2, .pic3, .pic4{
-          background-attachment: scroll;
-      }
+  
+  .ptext .border.trans{
+    background-color: transparent;
   }
- 
+  
+  @media(max-width:568px){
+    .pic1, .pic2, .pic3, .pic4 {
+      background-attachment: scroll;
+    }
+  }
