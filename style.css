@@ -77,8 +77,9 @@ a:hover{
       padding: 20px;
   }
 
-    @media only screen and (min-width: 800px) {
-   background-attachment: initial;
-}
+    @media(max-width: 568){
+      .pic1, .pic2, .pic3, .pic4{
+          background-size: cover;
+      }
   }
 
