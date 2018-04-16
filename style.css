@@ -80,7 +80,7 @@ a:hover{
 
 @media only screen and (min-width: 800px)  {
     .pic1, .pic2, .pic3, .pic4{
-   background-size: cover;
+   background-attachment: initial;
 }
 }
 
